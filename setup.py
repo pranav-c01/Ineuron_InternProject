@@ -19,7 +19,7 @@ def get_requirements(file_path):
     return requirements
 
 __version__ = "0.0.1"
-REPO_NAME = "Ineuron_internhip_proj"
+REPO_NAME = "Ineuron_InternProject"
 PKG_NAME= "src"
 AUTHOR_USER_NAME = "pranav-c01"
 AUTHOR_EMAIL = "pranavc430@gmail.com"
