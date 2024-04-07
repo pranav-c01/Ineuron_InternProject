@@ -1,0 +1,16 @@
+template.py
+venv/
+venv2/
+venv3_8/
+src.egg-info/
+dist/
+build/
+airflow/
+Dockerfile.airflow
+init_setup.sh
+start.sh
+Note_____.txt
+tests/
+tox.ini
+.github/
+.ebextensions/

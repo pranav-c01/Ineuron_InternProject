@@ -1,0 +1,14 @@
+version: "3"
+services:
+  flaskapp:
+    image: public.ecr.aws/o4m4g5n7/mlecr_repo:0.1
+    container_name: mushroom_classification_proj
+    ports:
+      - "3000:3000"
+    
+  mlflow_app:
+    image: public.ecr.aws/o4m4g5n7/mlecr_repo:0.2
+    container_name: mush_classif_models_compare
+    ports:
+      - "5000:5000"
+    
