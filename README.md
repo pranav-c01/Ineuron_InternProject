@@ -22,7 +22,6 @@ git clone https://github.com/pranav-c01/Ineuron_InternProject.git
 2. **Launch the Application with Docker Compose:**
 docker-compose up
 
-
 After successful execution, the web interfaces for predictions and model management will be accessible on ports 3000 and 5000, respectively.
 
 ## Usage Guide
