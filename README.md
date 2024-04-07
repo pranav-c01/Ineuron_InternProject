@@ -17,14 +17,9 @@ Before you begin, ensure Docker is installed on your system to use Docker Compos
 ### Installation
 
 1. **Clone the Repository:**
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/pranav-c01/Ineuron_InternProject.git
 
-
-2. **Navigate to the Project Directory:**
-cd YOUR_PROJECT_DIRECTORY
-
-
-3. **Launch the Application with Docker Compose:**
+2. **Launch the Application with Docker Compose:**
 docker-compose up
 
 
