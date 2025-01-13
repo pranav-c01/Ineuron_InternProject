@@ -1,0 +1,15 @@
+in dvc, 
+dvc add data.csv
+then git add .
+then git commit -m "fitst version , 2nd version , and so on ... create individual commits for individual data version"
+then for going to particular veersion say 2nd version, 
+git checkout "hashcode for 2nd version"  # see hash code from git log command
+then dvc checkout , so for that corresponding data version , your data.csv will be updated
+
+## for remote repo add (add s3 storage, etc)
+dvc remote add -d remote_storage "path_to_data_dir_remote_storage"
+dvc push
+
+## pipelining in dvc
+dvc repro ## to run all stages as per dvc.yaml
+dvc dag  ## to see which stage is dependent on which file ,etc 	

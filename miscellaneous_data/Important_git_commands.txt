@@ -1,0 +1,20 @@
+imp git commands :-   
+1. git init 
+2. git add . 
+3. git commit -m ""
+4. git branch
+5. git status 
+6. git reset filename_to_be_moved_from_stagin_to_unstage (to undo thing which is git add , from staging area to unstaged )
+7. git checkout branchname -b  or git branch branchname (to create new branch , by checkout one , create and switch to that branch)
+8. git log ( to see all commits)
+9. git show abcdef (5 initial chars of commit hash code to see difference what is added and deletedd in that commit)
+10. git merge branchname ( merge branchname to current branch)
+11. git branch -d branch_name  (delete branch branchname using -d flag)
+12. git stash (when I want to store code on temporary repo as  I want that to not to git add and commit so git stash  se temp repo mein chali gyi)
+13. git stash list (to get list of stashed data commits )
+14. git stash apply stash_id ( to get that particular stashed data back)
+Note when we have multiple stash and then we revert back stashed data , then conflict  which one will occur first , so we will decide it  manually and then git add . and git comit is necessary
+15. git stash clear ( by default git stash list is not deleted even when we revert all stashed data back , we have to run this commmand to delete stash list)
+16. git revert commit_id ( to revert back from commit area to local  repo area
+
+Note that suppose we have two bracnhes of which both have same file demo.txt ( and each one having different content in different bracnhes respectively) so when we merge these 2 bracnhes , then conflict occur as git dont know in demo.txt of combining both branches demo.txt cntent whose content is written first , so conflict occur and it will ask us to verify manually. and after that git add and git commit is run to finalise 

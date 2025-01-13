@@ -1,0 +1,1 @@
+airflow is used to schedule the pipeline / automate the running of pipeline after a given interval
